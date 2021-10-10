@@ -29,10 +29,14 @@ In this test case, login scenarios and my account scenarios have been implemente
     - ValidLoginStep
 - mylogs.log have all log files
 - ExtentReportResults.html reporter
-##Launch
+#Launch
+
 Start Appium server, open the project in intellij and run the testng.xml or RunnerTest with right click and "Run".
+
 #Sources
+
 Get dependecies from  https://mvnrepository.com/ and http://maven.apache.org/plugins/index.html
+
 #Mobile Device Properties
 - Device Model Number : SM-M317F/DSN
 - Platform : Android
