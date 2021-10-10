@@ -1,0 +1,71 @@
+[ {
+  "uid" : "188db136ed61d67d",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1633810707480,
+    "stop" : 1633810730847,
+    "duration" : 23367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19a3d2a16e9f691c",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1633810749597,
+    "stop" : 1633810775465,
+    "duration" : 25868
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56aaaadaa4d83f48",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1633810743578,
+    "stop" : 1633810748615,
+    "duration" : 5037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "beed624fefd51e17",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1633810730988,
+    "stop" : 1633810743562,
+    "duration" : 12574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ea7d10b49873ac6",
+  "name" : "setUpClass",
+  "time" : {
+    "start" : 1633806004497,
+    "stop" : 1633806004498,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4f5b90474023667e",
+  "name" : "setUpClass",
+  "time" : {
+    "start" : 1633806004243,
+    "stop" : 1633806004246,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e6a397570146ccc3",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1633810775465,
+    "stop" : 1633810796785,
+    "duration" : 21320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,143 @@
+{
+  "uid" : "beed624fefd51e17",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "e342d803f2b1a82761368be094d59a6a",
+  "time" : {
+    "start" : 1633810730988,
+    "stop" : 1633810743562,
+    "duration" : 12574
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1633810706560,
+      "stop" : 1633810707300,
+      "duration" : 740
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1633810748631,
+      "stop" : 1633810749581,
+      "duration" : 950
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "runnerTest.HesabimRunnerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "runnerTest.HesabimRunnerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cucumber Framework"
+  }, {
+    "name" : "suite",
+    "value" : "Cucumber Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "runnerTest.HesabimRunnerTest"
+  }, {
+    "name" : "host",
+    "value" : "kadir"
+  }, {
+    "name" : "thread",
+    "value" : "9576@kadir.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Go to Promosyonlarim\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Optional[Promosyonlarım]\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "48473940a84b7094",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'KADIR', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: io.appium.java_client.AppiumDriver\nCapabilities {appActivity: com.nesine.ui.taboutside.sp..., appPackage: com.pordiva.nesine.android, browserstack.appiumLogs: false, databaseEnabled: false, desired: {appActivity: com.nesine.ui.taboutside.sp..., appPackage: com.pordiva.nesine.android, browserstack.appiumLogs: false, deviceName: SM-M317F/DSN, platformName: android, platformVersion: 11, udid: R58R20E4Q2J}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-M317F, deviceName: R58R20E4Q2J, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: R58R20E4Q2J, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 87, takesScreenshot: true, udid: R58R20E4Q2J, viewportRect: {height: 2099, left: 0, top: 87, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: a94289e9-24e9-46ab-bc5d-15fe697371b8\n*** Element info: {Using=id, value=back}",
+      "time" : {
+        "start" : 1633806863576,
+        "stop" : 1633806939074,
+        "duration" : 75498
+      }
+    }, {
+      "uid" : "c322b9c4cae1914c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633806707097,
+        "stop" : 1633806719318,
+        "duration" : 12221
+      }
+    }, {
+      "uid" : "94e0399365eea37c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633806255951,
+        "stop" : 1633806268201,
+        "duration" : 12250
+      }
+    }, {
+      "uid" : "2dee7c136d892004",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"io.appium.java_client.AppiumDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1633806112274,
+        "stop" : 1633806112303,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "cf99fea5e1d79118",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"io.appium.java_client.AppiumDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null",
+      "time" : {
+        "start" : 1633806034232,
+        "stop" : 1633806034262,
+        "duration" : 30
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "beed624fefd51e17.json",
+  "parameterValues" : [ "\"Go to Promosyonlarim\"", "\"Optional[Promosyonlarım]\"" ]
+}

@@ -1,0 +1,98 @@
+{
+  "uid" : "32ce7830caf1b3c7",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "3ec662fe2f481e2222d6b8ca373bd4d2",
+  "time" : {
+    "start" : 1633806268207,
+    "stop" : 1633806272731,
+    "duration" : 4524
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1633806233350,
+      "stop" : 1633806234029,
+      "duration" : 679
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1633806272740,
+      "stop" : 1633806273569,
+      "duration" : 829
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "runnerTest.HesabimRunnerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "runnerTest.HesabimRunnerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cucumber Framework"
+  }, {
+    "name" : "suite",
+    "value" : "Cucumber Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "runnerTest.HesabimRunnerTest"
+  }, {
+    "name" : "host",
+    "value" : "kadir"
+  }, {
+    "name" : "thread",
+    "value" : "10448@kadir.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"My Personal Informations\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Optional[Promosyonlarım]\""
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32ce7830caf1b3c7.json",
+  "parameterValues" : [ "\"My Personal Informations\"", "\"Optional[Promosyonlarım]\"" ]
+}

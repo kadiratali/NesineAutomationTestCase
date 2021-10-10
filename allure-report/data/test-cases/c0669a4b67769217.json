@@ -1,0 +1,98 @@
+{
+  "uid" : "c0669a4b67769217",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "d1d7679c3a9d6aac6fa983416be60354",
+  "time" : {
+    "start" : 1633806790254,
+    "stop" : 1633806817259,
+    "duration" : 27005
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1633806789245,
+      "stop" : 1633806790078,
+      "duration" : 833
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1633806840911,
+      "stop" : 1633806842069,
+      "duration" : 1158
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "runnerTest.LoginPageRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "runnerTest.LoginPageRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Nesine.com"
+  }, {
+    "name" : "subSuite",
+    "value" : "runnerTest.LoginPageRunner"
+  }, {
+    "name" : "host",
+    "value" : "kadir"
+  }, {
+    "name" : "thread",
+    "value" : "15988@kadir.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Successful Login with Valid Credentials\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Optional[Login]\""
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0669a4b67769217.json",
+  "parameterValues" : [ "\"Successful Login with Valid Credentials\"", "\"Optional[Login]\"" ]
+}

@@ -1,0 +1,108 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "runnerTest",
+    "children" : [ {
+      "name" : "HesabimRunnerTest",
+      "children" : [ {
+        "name" : "setUpClass",
+        "uid" : "4f5b90474023667e",
+        "parentUid" : "d4e223d6e30ada328c23afdc22c3c861",
+        "status" : "broken",
+        "time" : {
+          "start" : 1633806004243,
+          "stop" : 1633806004246,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "runScenario",
+        "uid" : "188db136ed61d67d",
+        "parentUid" : "d4e223d6e30ada328c23afdc22c3c861",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633810707480,
+          "stop" : 1633810730847,
+          "duration" : 23367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"Background:\"", "\"Optional[Promosyonlarım]\"" ]
+      }, {
+        "name" : "runScenario",
+        "uid" : "beed624fefd51e17",
+        "parentUid" : "d4e223d6e30ada328c23afdc22c3c861",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633810730988,
+          "stop" : 1633810743562,
+          "duration" : 12574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"Go to Promosyonlarim\"", "\"Optional[Promosyonlarım]\"" ]
+      }, {
+        "name" : "runScenario",
+        "uid" : "56aaaadaa4d83f48",
+        "parentUid" : "d4e223d6e30ada328c23afdc22c3c861",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633810743578,
+          "stop" : 1633810748615,
+          "duration" : 5037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"My Personal Informations\"", "\"Optional[Promosyonlarım]\"" ]
+      } ],
+      "uid" : "d4e223d6e30ada328c23afdc22c3c861"
+    }, {
+      "name" : "LoginPageRunner",
+      "children" : [ {
+        "name" : "setUpClass",
+        "uid" : "8ea7d10b49873ac6",
+        "parentUid" : "1256751e67e6e89fb77729f788b239dc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1633806004497,
+          "stop" : 1633806004498,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "runScenario",
+        "uid" : "19a3d2a16e9f691c",
+        "parentUid" : "1256751e67e6e89fb77729f788b239dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633810749597,
+          "stop" : 1633810775465,
+          "duration" : 25868
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"Successful Login with Valid Credentials\"", "\"Optional[Login]\"" ]
+      }, {
+        "name" : "runScenario",
+        "uid" : "e6a397570146ccc3",
+        "parentUid" : "1256751e67e6e89fb77729f788b239dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633810775465,
+          "stop" : 1633810796785,
+          "duration" : 21320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"Unsuccessful Login with wrong password and wrong Id\"", "\"Optional[Login]\"" ]
+      } ],
+      "uid" : "1256751e67e6e89fb77729f788b239dc"
+    } ],
+    "uid" : "ecc994b7ff419c4d46e38b4839154a0b"
+  } ]
+}

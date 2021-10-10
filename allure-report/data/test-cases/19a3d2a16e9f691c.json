@@ -1,0 +1,134 @@
+{
+  "uid" : "19a3d2a16e9f691c",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "d1d7679c3a9d6aac6fa983416be60354",
+  "time" : {
+    "start" : 1633810749597,
+    "stop" : 1633810775465,
+    "duration" : 25868
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1633810749581,
+      "stop" : 1633810749581,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1633810796785,
+      "stop" : 1633810796894,
+      "duration" : 109
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "runnerTest.LoginPageRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "runnerTest.LoginPageRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cucumber Framework"
+  }, {
+    "name" : "suite",
+    "value" : "Cucumber Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "runnerTest.LoginPageRunner"
+  }, {
+    "name" : "host",
+    "value" : "kadir"
+  }, {
+    "name" : "thread",
+    "value" : "9576@kadir.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Successful Login with Valid Credentials\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Optional[Login]\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c0669a4b67769217",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633806790254,
+        "stop" : 1633806817259,
+        "duration" : 27005
+      }
+    }, {
+      "uid" : "ba76e6f2b7f99d58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633806273586,
+        "stop" : 1633806298462,
+        "duration" : 24876
+      }
+    }, {
+      "uid" : "526449fd4838be99",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Original error: Unexpected char 0x131 at 23 in User-Agent value: selenium/3.14.0 (java wındows)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'KADIR', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: AppiumDriver",
+      "time" : {
+        "start" : 1633806113337,
+        "stop" : 1633806113373,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "b9f7fe3177b32e30",
+      "status" : "broken",
+      "statusDetails" : "org/openqa/selenium/remote/internal/JsonToWebElementConverter",
+      "time" : {
+        "start" : 1633806035621,
+        "stop" : 1633806035643,
+        "duration" : 22
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19a3d2a16e9f691c.json",
+  "parameterValues" : [ "\"Successful Login with Valid Credentials\"", "\"Optional[Login]\"" ]
+}

@@ -1,0 +1,96 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "setUpClass",
+    "uid" : "4f5b90474023667e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1633806004243,
+      "stop" : 1633806004246,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "setUpClass",
+    "uid" : "8ea7d10b49873ac6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1633806004497,
+      "stop" : 1633806004498,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "188db136ed61d67d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633810707480,
+      "stop" : 1633810730847,
+      "duration" : 23367
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"Background:\"", "\"Optional[Promosyonlarım]\"" ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "beed624fefd51e17",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633810730988,
+      "stop" : 1633810743562,
+      "duration" : 12574
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"Go to Promosyonlarim\"", "\"Optional[Promosyonlarım]\"" ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "56aaaadaa4d83f48",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633810743578,
+      "stop" : 1633810748615,
+      "duration" : 5037
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"My Personal Informations\"", "\"Optional[Promosyonlarım]\"" ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "19a3d2a16e9f691c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633810749597,
+      "stop" : 1633810775465,
+      "duration" : 25868
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"Successful Login with Valid Credentials\"", "\"Optional[Login]\"" ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "e6a397570146ccc3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633810775465,
+      "stop" : 1633810796785,
+      "duration" : 21320
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"Unsuccessful Login with wrong password and wrong Id\"", "\"Optional[Login]\"" ]
+  } ]
+}

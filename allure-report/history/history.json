@@ -1,0 +1,137 @@
+{
+  "d1d7679c3a9d6aac6fa983416be60354" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19a3d2a16e9f691c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633810749597,
+        "stop" : 1633810775465,
+        "duration" : 25868
+      }
+    } ]
+  },
+  "122094ea8cb38310e50b7ce4ced12781" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "188db136ed61d67d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633810707480,
+        "stop" : 1633810730847,
+        "duration" : 23367
+      }
+    } ]
+  },
+  "5342a7d406fa05da96736aadc8cc82f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ea7d10b49873ac6",
+      "status" : "broken",
+      "statusDetails" : "Couldn't load plugin class: io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm",
+      "time" : {
+        "start" : 1633806004497,
+        "stop" : 1633806004498,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1e6b81d881a0375a8dbb207018ec7c52" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6a397570146ccc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633810775465,
+        "stop" : 1633810796785,
+        "duration" : 21320
+      }
+    } ]
+  },
+  "3ec662fe2f481e2222d6b8ca373bd4d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56aaaadaa4d83f48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633810743578,
+        "stop" : 1633810748615,
+        "duration" : 5037
+      }
+    } ]
+  },
+  "274908ae49400c138132c3a4d9345bff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f5b90474023667e",
+      "status" : "broken",
+      "statusDetails" : "Plugin is not compatible with this version of Cucumber: io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm",
+      "time" : {
+        "start" : 1633806004243,
+        "stop" : 1633806004246,
+        "duration" : 3
+      }
+    } ]
+  },
+  "e342d803f2b1a82761368be094d59a6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "beed624fefd51e17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633810730988,
+        "stop" : 1633810743562,
+        "duration" : 12574
+      }
+    } ]
+  }
+}

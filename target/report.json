@@ -1,0 +1,250 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15526478100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User launch application",
+            "match": {
+              "location": "ValidLoginStep.user_launch_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1771049700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click login button",
+            "match": {
+              "location": "ValidLoginStep.user_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1838347800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter username as \"kadir611992\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kadir611992\"",
+                  "offset": 23
+                }
+              ],
+              "location": "ValidLoginStep.user_enter_username_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1142005400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter password \"4c1m4s1z\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4c1m4s1z\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ValidLoginStep.user_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1189374100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click asklogin",
+            "match": {
+              "location": "ValidLoginStep.userClickAsklogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118436700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click login",
+            "match": {
+              "location": "ValidLoginStep.user_click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1323184800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click balance button",
+            "match": {
+              "location": "ValidLoginStep.user_click_balance_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2491541200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click logout button",
+            "match": {
+              "location": "ValidLoginStep.user_click_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginTest"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Unsuccessful Login with wrong password and wrong Id",
+        "description": "",
+        "id": "login;unsuccessful-login-with-wrong-password-and-wrong-ıd",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15383819600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User launched application",
+            "match": {
+              "location": "InvalidLoginStepp.user_launch_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1605372300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click to login button",
+            "match": {
+              "location": "InvalidLoginStepp.userClickToLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1840270500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter invalid username as \"kadir123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kadir123\"",
+                  "offset": 31
+                }
+              ],
+              "location": "InvalidLoginStepp.userEnterInvalidUsernameAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1663571900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter invalid password \"nesine345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nesine345\"",
+                  "offset": 28
+                }
+              ],
+              "location": "InvalidLoginStepp.userEnterInvalidPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 612989600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click a login button",
+            "match": {
+              "location": "InvalidLoginStepp.userClickALoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 813278400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User saw error message",
+            "match": {
+              "location": "InvalidLoginStepp.userSawErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginTest"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Features/login.feature",
+    "tags": [
+      {
+        "name": "@loginTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
