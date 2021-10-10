@@ -20,8 +20,7 @@ In this test case, login scenarios and my account scenarios have been implemente
     - PersonalInfo
     - Promotions
 - runnerTest
-    - HesabimRunnerTest
-    - LoginPageRunner
+   -RunnerTest
 - stepDefinition
     - BaseClass
     - myAccount
