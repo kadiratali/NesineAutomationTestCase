@@ -31,9 +31,9 @@ In this test case, login scenarios and my account scenarios have been implemente
 - ExtentReportResults.html reporter
 ##Launch
 Start Appium server, open the project in intellij and run the testng.xml or RunnerTest with right click and "Run".
-##Sources
+#Sources
 Get dependecies from  https://mvnrepository.com/ and http://maven.apache.org/plugins/index.html
-##Mobile Device Properties
+#Mobile Device Properties
 - Device Model Number : SM-M317F/DSN
 - Platform : Android
 - Version : 11
